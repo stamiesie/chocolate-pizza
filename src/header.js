@@ -1,7 +1,7 @@
 import React from 'react';
-import { NavButton } from './Button/button.js';
+import { NavButton } from './button.js';
 
-export class ChocolateHeader extends React.Component {
+export default class ChocolateHeader extends React.Component {
     render() {
         return <div>
             <img alt="logo" src="logo.png"></img>
