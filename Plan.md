@@ -29,8 +29,8 @@
 - App.css
 ## Steps to start
 
-- Build out file structure
-- Import assets
+- Build out file structure X
+- Import assets X
 - Build react components
     - import into App.js
 - style
