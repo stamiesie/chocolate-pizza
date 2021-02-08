@@ -4,7 +4,7 @@ export default class ImageComponent extends React.Component {
     render() {
         return (
             <div>
-                <image alt = "Chocolate Pizza" src = "choco-pizza.png"/>
+                <img alt = "Chocolate Pizza" src = "choco-pizza.png"/>
             </div>
         );
     }
