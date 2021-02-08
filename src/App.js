@@ -4,6 +4,7 @@ import ChocolateHeader from './header.js';
 import ImageComponent from './image.js';
 import PizzaHeading from './pizza-heading.js';
 import ChocolateRecipe from './recipe.js';
+import IngredientList from './ingredient-list';
 
 
 export default class App extends React.Component {
@@ -14,6 +15,7 @@ export default class App extends React.Component {
         <ImageComponent />
         <PizzaHeading />
         <ChocolateRecipe />
+        <IngredientList />
       </div>
     );
   }
