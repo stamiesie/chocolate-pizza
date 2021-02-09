@@ -11,7 +11,7 @@ import ChocolateFooter from './footer.js';
 export default class App extends React.Component {
   render() {
     return (
-      <div>
+      <div className = "app-content">
         <ChocolateHeader />
         <PizzaHeading />
         <ImageComponent />

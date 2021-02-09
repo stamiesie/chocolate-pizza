@@ -1,9 +1,11 @@
 import React from 'react';
 import IngredientElement from './ingredient.js';
-import IngredientData from './data.js';
+import Data from './data.js';
+
+const ingredientDataArray = Data;
 
 export default class IngredientList extends React.Component {
-     IngredientElementArray = IngredientData.map((ingredient) => {
+     IngredientElementArray = ingredientDataArray.map((ingredient) => {
         return (
             <IngredientElement name = {ingredient.name} text = {ingredient.text}/>
         )
