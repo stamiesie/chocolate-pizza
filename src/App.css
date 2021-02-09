@@ -1,20 +1,21 @@
 html, body {
   width: 100%;
+  margin: 0;
+  padding: 0;
+  max-width: 1250px;
 }
 
-body {
-  margin: 0 auto;
-  padding: 0;
-  /* display: flex;
+.app-content {
+  display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center; */
-}
+ } 
+
 
 .page-header {
   width: 80%;
   display: grid;
-  grid-template-columns: .1fr 2fr 2.5fr 2fr;
+  grid-template-columns: .1fr 2fr 2.9fr 1.4fr;
 }
 
 .header-title {
@@ -46,5 +47,28 @@ margin: 0px;
 .pizza-header {
   width: 80%;
   display: grid;
-  grid-template-columns: 1fr 2fr .1fr;
+  grid-template-columns: 1fr 2.4fr .1fr;
+}
+
+.pizza-image {
+  width: 80%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.pizza-image img {
+  width: 100%;
+  height: auto;
+}
+
+.recipe-container {
+  width: 80%;
+
+}
+
+.recipe-container p {
+  width: 100%;
+  text-align: c;
+
 }
