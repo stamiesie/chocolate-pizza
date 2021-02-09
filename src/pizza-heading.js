@@ -1,18 +1,21 @@
 import React from 'react';
 
 export default class PizzaHeading extends React.Component {
-    render(){
+    render() {
         return (
-            <div>
+            <div className="pizza-header">
                 <section>
-                    <h1>Chocolate Pizza</h1>
-                    <p>POSTED ON DEC 2013 / DESSERTS</p>
+                    <h1 className="header-title">Chocolate Pizza</h1>
+                    <p className="header-sub">POSTED ON DEC 2013 / DESSERTS</p>
                 </section>
+
+                <section></section>
+
                 <section>
-                    <img src = "print-icon.png" alt = "printer"/>
-                    <span>PRINT</span>
-                </section>  
-            </div> 
+                    <img src="print-icon.png" alt="printer" />
+                    <span className="header-sub">PRINT</span>
+                </section>
+            </div>
         );
     }
 }
