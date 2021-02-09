@@ -13,8 +13,8 @@ export default class App extends React.Component {
     return (
       <div>
         <ChocolateHeader />
-        <ImageComponent />
         <PizzaHeading />
+        <ImageComponent />
         <ChocolateRecipe />
         <IngredientList />
         <ChocolateFooter />
